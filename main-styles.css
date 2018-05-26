@@ -1,0 +1,22 @@
+.jumbotron {
+	height: 100vh;
+	background-image: url(images/jumbotron.png);
+	background-repeat: no-repeat;
+    background-size:  cover;
+}
+
+.about-me {
+	height: 100vh;
+}
+
+.about-me-thumbnail img {
+	max-width: 300px;
+	border-radius: 50%;
+}
+
+@media (max-width: 575.98px) {
+	.about-me-thumbnail img {
+		text-align: center;
+	}
+}
+
