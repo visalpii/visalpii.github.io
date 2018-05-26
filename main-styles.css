@@ -19,6 +19,14 @@
 	background-color: rgba(255, 226, 171, 0.5);
 }
 
+.card-body {
+	background-color: darkgrey;
+}
+
+.card-body a {
+	width: 100%;
+}
+
 
 
 @media (max-width: 575.98px) {
