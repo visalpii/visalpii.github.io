@@ -6,13 +6,20 @@
 }
 
 .about-me {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 .about-me-thumbnail img {
 	max-width: 300px;
 	border-radius: 50%;
 }
+
+.projects-wrapper {
+	min-height: 100vh;
+	background-color: rgba(255, 226, 171, 0.5);
+}
+
+
 
 @media (max-width: 575.98px) {
 	.about-me-thumbnail img {
