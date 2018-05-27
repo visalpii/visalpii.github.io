@@ -1,3 +1,7 @@
+body {
+	color: rgb(18, 54, 80);
+}
+
 .jumbotron {
 	height: 100vh;
 	background-image: url(images/jumbotron.png);
@@ -16,15 +20,49 @@
 
 .projects-wrapper {
 	min-height: 100vh;
-	background-color: rgba(255, 226, 171, 0.5);
+	background: linear-gradient(45deg, rgb(85, 63, 0), rgb(255, 233, 170));
+}
+
+.projects-h1 {
+	width: auto;
+	margin: auto;
+}
+
+.card {
+	box-shadow: -5px 5px 8px rgba(0,0,0,0.3);
 }
 
 .card-body {
-	background-color: darkgrey;
+	background-color: rgba(18, 54, 80, 1);
+	color: white;
 }
 
 .card-body a {
 	width: 100%;
+}
+
+
+.resume {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	line-height: 5rem;
+	transition: transform .2s;
+	margin: auto;
+}
+
+.resume:hover {
+	transform: scale(1.5);
+	color: rgb(18, 54, 80);
+}
+
+.resume-row {
+	width: 100%;
+}
+
+.resume-col {
+	max-width: 100px;
+	margin: auto;
 }
 
 
