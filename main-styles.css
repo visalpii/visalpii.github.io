@@ -1,12 +1,15 @@
 body {
 	color: rgb(18, 54, 80);
+	background-color: #FFF7F0;
 }
 
 .jumbotron {
-	height: 100vh;
+	min-height: 100vh;
 	background-image: url(images/jumbotron.png);
-	background-repeat: no-repeat;
-    background-size:  cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .about-me {
@@ -20,27 +23,37 @@ body {
 
 .projects-wrapper {
 	min-height: 100vh;
-	background: linear-gradient(45deg, rgb(85, 63, 0), rgb(255, 233, 170));
+	background-image: url(images/projectBackground.png);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.projects-h1 {
+.projects-h1, .photography-h1 {
+	color: white;
 	width: auto;
 	margin: auto;
 }
 
 .card {
 	box-shadow: -5px 5px 8px rgba(0,0,0,0.3);
+	height: auto;
+	background-color: rgba(255,255,255,0.7);
+	transition: all .2s ease-in-out;
 }
 
-.card-body {
-	background-color: rgba(18, 54, 80, 1);
-	color: white;
+.card:hover {
+	transform: scale(1.1);
 }
 
-.card-body a {
-	width: 100%;
+.card-img-top {
+	filter: grayscale(100%);
 }
 
+.card h5, .card p {
+	color: rgb(18, 54, 80);
+}
 
 .resume {
 	height: 100px;
@@ -65,6 +78,13 @@ body {
 	margin: auto;
 }
 
+.photography-wrapper, .about-me-wrapper {
+	min-height: 100vh;
+}
+
+.photography-h1{
+	color: rgb(18, 54, 80)
+}
 
 
 @media (max-width: 575.98px) {
