@@ -49,6 +49,7 @@ body {
 
 .card-img-top {
 	filter: grayscale(100%);
+	overflow: hidden;
 }
 
 .card h5, .card p {
