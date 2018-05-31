@@ -78,14 +78,13 @@ body {
 	margin: auto;
 }
 
-.photography-wrapper, .about-me-wrapper {
+.about-me-wrapper {
 	min-height: 100vh;
 }
 
 .photography-h1{
 	color: rgb(18, 54, 80)
 }
-
 
 @media (max-width: 575.98px) {
 	.about-me-thumbnail img {
