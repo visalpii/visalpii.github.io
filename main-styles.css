@@ -3,6 +3,8 @@ body {
 	background-color: #FFF7F0;
 }
 
+
+
 .jumbotron {
 	min-height: 100vh;
 	background-image: url(images/jumbotron.png);
@@ -10,6 +12,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.navigator{
+	position: fixed;
+	top: 90%;
+	left:40%;
+	z-index: 2;
 }
 
 .about-me {
@@ -81,6 +90,11 @@ body {
 
 .about-me-wrapper {
 	min-height: 100vh;
+}
+
+.photgraphy-wrapper {
+	max-height: 100vh;
+	background-color: red;
 }
 
 .photography-h1{
