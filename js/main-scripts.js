@@ -28,20 +28,4 @@ cardTwo.addEventListener('mouseout', function(){
 	cardTwoImage.style.filter = 'grayscale(100%)';
 });
 
-cardThree.addEventListener('mouseover', function(){
-	cardThreeImage.style.filter = 'grayscale(0%)';
-});
-
-cardThree.addEventListener('mouseout', function(){
-	cardThreeImage.style.filter = 'grayscale(100%)';
-});
-
-cardFour.addEventListener('mouseover', function(){
-	cardFourImage.style.filter = 'grayscale(0%)';
-});
-
-cardFour.addEventListener('mouseout', function(){
-	cardFourImage.style.filter = 'grayscale(100%)';
-});
-
 // --- /EVENT HANDLERS ---

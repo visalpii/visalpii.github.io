@@ -1,24 +1,14 @@
-body {
+body{
 	color: rgb(18, 54, 80);
-	background-color: #FFF7F0;
 }
-
-
 
 .jumbotron {
 	min-height: 100vh;
-	background-image: url(images/jumbotron.png);
+	background-image: url(../images/jumbotron.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.navigator{
-	position: fixed;
-	top: 90%;
-	left:40%;
-	z-index: 2;
 }
 
 .about-me {
@@ -32,7 +22,7 @@ body {
 
 .projects-wrapper {
 	min-height: 100vh;
-	background-image: url(images/projectBackground.png);
+	background-image: url(../images/projectBackground.png);
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
