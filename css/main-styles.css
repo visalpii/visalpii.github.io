@@ -1,9 +1,42 @@
-body{
+body, a{
 	color: rgb(18, 54, 80);
 }
 
-.jumbotron {
+body {
+	background-color: #FFF8E6;
+}
+
+.jumbotron,
+.about-me-wrapper,
+.projects-wrapper,
+.photography-wrapper {
 	min-height: 100vh;
+	padding: 10rem 0;
+}
+
+.nav {
+	position: fixed;
+	top: 15px;
+	z-index: 2;
+	width: 100%;
+	font-size: 1.2rem;
+
+}
+
+.nav li {
+	background-color: rgba(255,255,255,0.7);
+	padding: 0 10px;
+}
+
+.nav .first {
+	border-radius: 10px 0 0 10px;
+}
+
+.nav .last {
+	border-radius: 0 10px 10px 0;
+}
+
+.jumbotron {
 	background-image: url(../images/jumbotron.png);
     background-attachment: fixed;
     background-position: center;
@@ -11,9 +44,15 @@ body{
     background-size: cover;
 }
 
-.about-me {
-	min-height: 100vh;
+.jumbotron-title-col {
+	text-align: center;
 }
+
+.title-h1 {
+	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+
 
 .about-me-thumbnail img {
 	max-width: 300px;
@@ -21,7 +60,6 @@ body{
 }
 
 .projects-wrapper {
-	min-height: 100vh;
 	background-image: url(../images/projectBackground.png);
 	background-attachment: fixed;
     background-position: center;
@@ -29,15 +67,18 @@ body{
     background-size: cover;
 }
 
-.projects-h1, .photography-h1 {
-	color: white;
-	width: auto;
-	margin: auto;
+.projects {
+	margin-top: -5rem;
 }
+
+.projects-h1 {
+	color: white;
+}
+
 
 .card {
 	box-shadow: -5px 5px 8px rgba(0,0,0,0.3);
-	height: auto;
+	height: 510px;
 	background-color: rgba(255,255,255,0.7);
 	transition: all .2s ease-in-out;
 }
@@ -51,44 +92,21 @@ body{
 	overflow: hidden;
 }
 
-.card h5, .card p {
-	color: rgb(18, 54, 80);
-}
-
 .resume {
-	height: 100px;
-	width: 100px;
+	display: inline-block;
+	position: relative;
+	left: 80%;
+	height: 90px;
+	width: 90px;
 	border-radius: 50%;
-	line-height: 5rem;
+	line-height: 4.5rem;
 	transition: transform .2s;
-	margin: auto;
 }
 
 .resume:hover {
 	transform: scale(1.5);
 	color: rgb(18, 54, 80);
-}
-
-.resume-row {
-	width: 100%;
-}
-
-.resume-col {
-	max-width: 100px;
-	margin: auto;
-}
-
-.about-me-wrapper {
-	min-height: 100vh;
-}
-
-.photgraphy-wrapper {
-	max-height: 100vh;
-	background-color: red;
-}
-
-.photography-h1{
-	color: rgb(18, 54, 80)
+	background-color: rgba(255,255,255,0.7);
 }
 
 @media (max-width: 575.98px) {

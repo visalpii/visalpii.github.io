@@ -13,13 +13,34 @@
   </head>
 
   <body>
+
+  	<!-- NAV -->
+
+	<ul class="nav justify-content-center">
+	  <li class="nav-item first">
+	    <a class="nav-link" href="#">Home</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#aboutMe">About Me</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="#myWork">My Work</a>
+	  </li>
+	  <li class="nav-item last">
+	    <a class="nav-link" href="#photography">Photography</a>
+	  </li>
+	</ul>
+
+	<!-- /NAV -->
+
+
 	<!-- JUMBOTRON -->
 
   	<div class="jumbotron jumbotron-fluid">
   		<div class="container">
   			<div class="row">
-  				<div class="col">
-  					<h1 class="display-3">Visal Perera</h1>
+  				<div class="col jumbotron-title-col">
+  					<h1 class="display-3 title-h1">Visal Perera</h1>
   				</div>
   			</div>
   		</div>
@@ -28,9 +49,9 @@
 	<!-- /JUMBOTRON -->
 
 	<!-- ABOUT ME -->
-
+	<a name="aboutMe"></a>
 	<div class="conatiner-fluid about-me-wrapper">
-		<div class="container about-me py-5">
+		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-sm-8 align-self-start about-me-text">
 					<h1 class="display-4">A little about myself</h1>
@@ -50,12 +71,21 @@
 	
 	<!-- /ABOUT ME -->
 
-	<!-- PROJECTS -->
 
+	<!-- PROJECTS -->
+	<a name="myWork"></a>
 	<div class="container-fluid projects-wrapper">	
-		<div class="container projects py-5">
-			<div class="row mb-4">
-				<h1 class="display-4 projects-h1 mt-4">Projects</h1>
+		<div class="container projects">
+			<div class="row">
+				<div class="col">
+					<h1 class="display-4 projects-h1 mt-4">Projects</h1>
+				</div>
+				<div class="col">
+					<a target="_blank" href="files/resume.pdf" class="btn btn-outline-light resume">Resume</a>
+				</div>
+				
+
+				
 			</div>
 			<div class="row card-row justify-content-md-center">
 
@@ -69,33 +99,32 @@
   					</a>
 				</div>
 
-				<div id="project2-card" class="card mr-4 mb-4" style="width: 15rem;">
+				<div id="project2-card" class="card" style="width: 15rem;">
 					<a href="https://visalpii.github.io/conquer-template-replication/" target="_blank"  class="card-link">
   						<img class="card-img-top" src="images/project2.png" alt="Card image cap">
   						<div class="card-body">
     						<h5 class="card-title">Conquer Template Replica</h5>
-    						<p class="card-text">I recreated a freely available fully responsive mobile device ready CSS template from the internet. I used vanilla CSS with no frameworks like Bootstrap or help from SASS/LESS. For reference the original template can be viewed</p><a target="_blank" style="color: rgb(18, 54, 80);" href="https://www.free-css.com/free-css-templates/page196/conquer">HERE</a>.
+    						<p class="card-text">I recreated a freely available fully responsive mobile device ready CSS template from the internet. I used vanilla CSS with no frameworks like Bootstrap or help from SASS/LESS. For reference the original template can be viewed</p><a target="_blank" href="https://www.free-css.com/free-css-templates/page196/conquer">HERE</a>.
   						</div>
   					</a>
 				</div>
-
-
-				<div class="row py-4 resume-row">
-					<div class="col resume-col">
-						<a target="_blank" href="files/resume.pdf" class="btn btn-outline-light resume">Resume</a>
-					</div>
-				</div>
 			</div>
+
+			
 		</div>
 	</div>
 
 	<!-- /PROJECTS -->
 
+
 	<!-- PHOTOGRAPHY -->
-	<div class="container photography-wrapper pt-4">
-		<div class="row"><h1 class="display-4 photography-h1">Photography</h1></div>
-		<div class="row photography-row mt-4">
-			<div class="col">		
+	<a name="photography"></a>
+	<div class="container-fluid photography-wrapper">
+		<div class="row">
+			<h1 class="display-4 photography-h1">Photography</h1>
+		</div>
+		<div class="row carousel-row">
+			<div class="col carousel-col">		
 				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   					<ol class="carousel-indicators">
 					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
