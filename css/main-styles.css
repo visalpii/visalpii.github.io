@@ -92,9 +92,6 @@ body {
 }
 
 .resume {
-	display: inline-block;
-	position: relative;
-	left: 80%;
 	height: 90px;
 	width: 90px;
 	border-radius: 50%;
