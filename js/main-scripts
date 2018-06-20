@@ -1,7 +1,0 @@
-// --- EVENT HANDLERS ---
-
-const card = document.querySelector('.card');
-
-card.style.display = 'none';
-
-// --- /EVENT HANDLERS ---
